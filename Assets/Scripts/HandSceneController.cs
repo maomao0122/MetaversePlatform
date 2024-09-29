@@ -9,4 +9,9 @@ public class HandSceneController : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
+
+    public void OnInteractButtonClick()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3 );
+    }
 }
